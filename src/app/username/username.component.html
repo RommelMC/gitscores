@@ -1,0 +1,10 @@
+<form (click)="onSubmit()" class='item'>
+  <h1>GitHub Score</h1>
+  <div>
+    <label (submit)="onSubmit()">
+      Github Username: 
+      <input type="text" name="username" required [(ngModel)]="user.username">
+      <input type="submit" value='Calculate my Github Score'>
+    </label>
+  </div>
+</form>

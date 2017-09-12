@@ -1,0 +1,4 @@
+<div id="container">
+  <app-username (checkName)="newName($event)" (nameExists)="userExists($event)"></app-username>
+  <app-score [score]='score' [exists]='exists'></app-score>
+</div>
